@@ -16,11 +16,11 @@ permalink: /projects/
 
 # Industrial Projects
 1. **IPv6 for APZ system** (R&D Engineer at DEK Vietnam):
-* Description: APZ support various types of IP stack implementations for different purposes. There is an IP stack on the Central Processor for system internal communication to IO system for communicating to the Operation Support System (OSS). 
+* Description: APZ support various types of IP stack implementations for different purposes. There is an IP stack on the Central Processor for system internal communication to I/O system for communicating to the Operation Support System (OSS). 
 This project is to implement the IPv6 feature for APZ system as one of the network layer protocol (layer 3) on AXE platform to fully comply with all features from IPv4 connectivity. 
 * Improved skills/knowledge: TCP/IP knowledge, networking program, C/C++.
 
 2. **APZ's CP Design** (R&D Engineer at DEK Vietnam):
-- Design Central Processor (CP) software block in APZ in AXE telephone exchange system. (AXE based equipment are being used as BSC/TRC, MSC, HLR, SCP, FNR, TSC, STP and wireline nodes.)
-- Writing in PLEX-C language and ASA-C. 
+- Design Central Processor (CP) software blocks in APZ in [AXE telephone exchange](https://en.wikipedia.org/wiki/AXE_telephone_exchange) system. (AXE based equipment are being used as BSC/TRC, MSC, HLR, SCP, FNR, TSC, STP and wireline nodes.)
+- Writing in [PLEX-C](https://en.wikipedia.org/wiki/PLEX_(programming_language)) language and ASA-C. 
 
