@@ -14,6 +14,7 @@ permalink: /projects/
 * Investigate the network integration of heterogeneous wireless networking technologies to support seamless roaming and end-to-end QoS.
 * Investigate the effect of operating frequency band on the proposed techniques.
 
+----------
 # Industrial Projects
 1. **IPv6 for APZ system** (R&D Engineer at DEK Vietnam):
 * Description: APZ support various types of IP stack implementations for different purposes. There is an IP stack on the Central Processor for system internal communication to I/O system for communicating to the Operation Support System (OSS). 
