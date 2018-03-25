@@ -28,7 +28,7 @@ My research interests include (but hopefully not limited to):
 * Data mining, Machine Learning
 * Distributed Computing
 
-Software engineering skills: C, C++, Python, Java, databases, network programming, [PLEX-C](https://en.wikipedia.org/wiki/PLEX_(programming_language)), ASA.
+Software engineering skills: C, C++, Python, databases, network programming, [PLEX-C](https://en.wikipedia.org/wiki/PLEX_(programming_language)), ASA.
 
 ----------
 # Education
