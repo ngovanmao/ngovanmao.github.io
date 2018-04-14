@@ -6,27 +6,27 @@ categories: jekyll update
 commentIssueId: 1
 ---
 # Motivation of migration in edge computing
-In edge computing, the mobile user can offload computational tasks to the near by server, called edge node, instead of sending the request to centralized cloud. 
+In edge computing, mobile users can offload computational tasks to near by server, called edge-server or edge-node, instead of sending the request to centralized cloud. 
 In other words, the computation service is distributed to closer end-user (EU) location.
 By pushing computation close to EUs, the end-to-end (E2E) delay to response the requests or processing the data is reduced significantly. 
-If the computation is located right in the access point (AP) or in the base station (in cellular network), the E2E delay is the same as one-hop delay, which is without the transmission time to/from the centralized cloud. 
-With the advance of virtualization technology, e.g., virtual machine (VM), or container (Docker, LXC, rkt CoreOS), we can deploy a service in the edge node without concern about dependency library.
-In the edge computing, there are two approach for deploying services, one uses VM as a basic unit for isolation deployment, the other use container. 
-Compare to VM, container is much ligter weight, so we can deploy quickly the service in the edge and destroy when the service finishes.
-In the scope of this post, I use Docker container for deploying edge service. 
-Since the running services are located in edge node, if the mobile user moves from one place to another place which is not covered by the edge node. 
-The mobile user has to suffer long delay for transmitting request/response to the edge node via Wide Are Network (WAN) connection.
+If the computation is located right in the associated access point (AP) or base station (BTS) (in cellular network), the E2E delay is the same as one-hop delay, which is without the transmission time to/from the centralized cloud. 
+With the advance of virtualization technology, e.g., virtual machine (VM), or container ([Docker](https://www.docker.com/), LXC, rkt CoreOS), we can deploy multiple services in the edge node without concern about dependency library.
+In the edge computing, there are two approaches for deploying services, one uses VM as a basic unit for isolation deployment, the other use container. 
+Compare to VM, container is much lighter weight, so we can deploy/destroy quickly the service in the edge, and each edge-server can simultaneously host more services than VM.
+In the scope of this post, I use Docker container for deploying edge services. 
+Since running services are located in edge-node, if the mobile user moves from one place to another place, but the service is still running at the old edge-node. 
+The mobile user has to suffer long delay for transmitting requests/responses between the new AP/BTS and the edge node via Wide Are Network (WAN) connection.
 
 # Migration tools
-Therefore migration running service is very important feature in edge computing. 
-We can categorized the service in the internet into two types: **stateless service** and **stateful service**. 
+Therefore migration running service is a very important feature in edge computing. 
+We can categorized the service in the Internet into two types: **stateless service** and **stateful service**. 
 The stateless services, e.g., download content from web server, request global time service, do not require to migrate the running states from the old edge node to a new edge node.
 The solution to stateless services is very simple, we can deploy the running service to the potential next edge node in advance, so whenever the EU moves to the new places, it can request contents from the new edge node. 
-However, the stateful services, e.g., a database service, a tracking person using serveillance camera, require consistent running states when the container moves to a new edge node.
-In order to keep the running states cosistent between the old and new edge node, we migrate the running container from the old to the new edge node. 
+However, the stateful services, e.g., a database service, a tracking person using surveillance camera, play game, etc., require consistent running states when the container moves to a new edge node.
+In order to keep the running states consistent between the old and new edge node, we migrate the running container from the old to the new edge node. 
 Migration container was discussed in 2008, Andrey Mirkin *et al.* proposed container checkpointing and live migration in Linux symposium. 
 The tool [CRIU (Checkpoint/Restore In Userspace)](https://criu.org/Main_Page) is an open source software for checkpointing and restoring a running application in Linux OS.
-CRIU can checkpoint/save/dump the state of process (tree of processes) into a set of files (*.img) which can be used to restore/restart the process(es) at a later point in time and can be in different machine.
+CRIU can checkpoint/save/dump the states of process (tree of processes) into a set of files (*.img) which can be used to restore/restart the process(es) at a later point in time and can be in a different machine.
 With this general feature, it can apply to application of live migration which dumps snapshots and migrates the dump files to another host, and then restore the container. 
 
 # How to reduce downtime during migration in edge computing
@@ -41,7 +41,7 @@ Last pre-dump is assumed the changed memory pages is small enough to reduce tran
 
 The other approach for reducing downtime is post-copy that the container is stop in the source edge node, and immediately start a container with limitted transferred states, e.g., CPU info, configuration, the required memory pages have not been transferred before restoring process, but on demand. 
 The new edge node will halt the container until the requested memory pages are transferred to the new edge node.
-CRIU supports [lazy migration](https://lisas.de/~adrian/?p=1287) mode (depends on `userfautlfd` being availabel on the Linux kernel), for more details you can refer to article [userfaultfd](https://criu.org/Userfaultfd).
+CRIU supports [lazy migration](https://lisas.de/~adrian/?p=1287) mode (depends on `userfautlfd` being available on the Linux kernel), for more details you can refer to article [userfaultfd](https://criu.org/Userfaultfd).
 
 If we use Docker container, *docker-cli* has an option to use CRIU for checkpointing and restoring a running container. 
 Following, I will show step by step to do a migration between two edge nodes with docker-cli and pre-installed CRIU. In the time I write this post, I use Docker version 17.03.2-ce, CRIU version 3.7.
