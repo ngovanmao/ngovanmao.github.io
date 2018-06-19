@@ -16,7 +16,7 @@ Email: (1) vanmao\_ngo at mymail dot sutd dot edu dot sg,
 # Biography
 
 I am a Ph.D. candidate (Sep 2016 - present) at Singapore University of Technology and Design (SUTD), Information Systems Technology and Design Pillar.
-My advisor is [Prof. Tony Q.S. Quek](http://people.sutd.edu.sg/~tonyquek/) at SUTD and [Dr. Derek Leong](https://dleong.github.io/#/home) at the Institute for Infocomm Research (I²R), Agency for Science, Technology and Research (A*STAR), Singapore.
+My advisors are [Prof. Tony Q.S. Quek](http://people.sutd.edu.sg/~tonyquek/) at SUTD, and [Dr. Tony T. Luo](https://tonylt.github.io/) at the Institute for Infocomm Research (I²R), Agency for Science, Technology and Research (A*STAR), Singapore, and [Dr. Derek Leong](https://dleong.github.io/#/home).
 
 ***I work to bring Cloud computing to IoT devices together.***
 

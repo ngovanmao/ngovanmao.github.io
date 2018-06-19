@@ -20,4 +20,5 @@ Besides the paper I listed in the resource page. The following list is also very
 
 [Why we should write than type](https://lifehacker.com/5738093/why-you-learn-more-effectively-by-writing-than-typing)
 
+[Advice to a Beginning Graduate Student](http://www.cs.cmu.edu/~mblum/research/pdf/grad.html)
 
