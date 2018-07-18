@@ -13,7 +13,7 @@ Besides the paper I listed in the resource page. The following list is also very
 
 [How he reads a research paper](https://muratbuffalo.blogspot.sg/search?q=my+advice) (Murat Demirbas)
 
-From this link, you can find a lots of useful articles: [Advice on Research and Writing](http://www.cs.cmu.edu/afs/cs.cmu.edu/user/mleone/web/how-to.html)
+From this link, you can find many useful articles: [Advice on Research and Writing](http://www.cs.cmu.edu/afs/cs.cmu.edu/user/mleone/web/how-to.html)
 
 # Advice 
 
