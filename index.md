@@ -1,7 +1,7 @@
 <html>
 <head>
 <title>A web page that points a browser to a different page after 1 seconds</title>
-<meta http-equiv="refresh" content="1; URL=https://sites.google.com/site/maovngo/">
+<meta http-equiv="refresh" content="0; URL=https://sites.google.com/site/maovngo/">
 <meta name="keywords" content="automatic redirection">
 </head>
 <body>
