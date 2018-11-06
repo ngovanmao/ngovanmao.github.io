@@ -24,3 +24,6 @@ From this link, you can find many useful articles: [Advice on Research and Writi
 [Advice to a Beginning Graduate Student](http://www.cs.cmu.edu/~mblum/research/pdf/grad.html)
 
 This link is more for CS students: [Advice for researchers and students](http://taoxie.cs.illinois.edu/advice/) (Tao Xie).
+
+# Famous persons
+[You and Your Research](http://www.cs.virginia.edu/~robins/YouAndYourResearch.html)
