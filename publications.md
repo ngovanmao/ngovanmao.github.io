@@ -21,3 +21,6 @@ permalink: /Publications/
 2. Quang Duy La, Duong Nguyen-Nam, **Mao V Ngo**, Hieu T Hoang, Tony QS Quek, "Dense Deployment of BLE-based Body Area Networks: A Coexistence Study," *IEEE Transaction on Green Communications and Networking*, 2018. [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/8418825/), [Preprint](https://ngovanmao.github.io/papers/2018_GreenCom_Coexistence_LNNHQ.pdf)
 
 3. Quang Duy La, **Mao V. Ngo**,  Thinh Quang Dinh, Tony Q.S. Quek, Hyundong Shin, "Enabling intelligence in fog computing to achieve energy and latency reduction," *Digital Communications and Networks*, 2019. [ScienceDirect](https://doi.org/10.1016/j.dcan.2018.10.008)
+
+-------------
+<sub><sup>IEEE Copyright Notice: "©20xx IEEE. Personal use of this material is permitted. However, permission to reprint/republish this material for advertising or promotional purposes or for creating new collective works for resale or redistribution to servers or lists, or to reuse any copyrighted component of this work in other works must be obtained from the IEEE."</sup></sub>
