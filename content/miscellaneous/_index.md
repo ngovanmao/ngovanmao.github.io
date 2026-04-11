@@ -9,8 +9,10 @@ aliases:
 
 Conference lists (also collected from [my supervisor’s site](https://tluocs.github.io/)):
 
-- [Machine learning & artificial intelligence](https://www.guide2research.com/topconf/machine-learning) (Guide2Research) · [Acceptance rates — AI conferences](https://github.com/lixin4ever/Conference-Acceptance-Rate)
-- [Networking](https://sites.cs.ucsb.edu/~almeroth/conf/stats/) (Prof. Kevin C. Almeroth) · [Networks and communications](https://www.guide2research.com/topconf/network-communication) (Guide2Research)
+- [Machine learning & artificial intelligence](https://www.guide2research.com/topconf/machine-learning) (Guide2Research) 
+- [Acceptance rates — AI conferences](https://github.com/lixin4ever/Conference-Acceptance-Rate)
+- [Networking](https://sites.cs.ucsb.edu/~almeroth/conf/stats/) (Prof. Kevin C. Almeroth) 
+- [Networks and communications](https://www.guide2research.com/topconf/network-communication) (Guide2Research)
 - [Cyber security](https://people.engr.tamu.edu/guofei/sec_conf_stat.htm) (Prof. Guofei Gu)
 
 Journal lists:
@@ -46,11 +48,6 @@ Cyber security journals: *to be updated*
 - [Advice for researchers and students](http://taoxie.cs.illinois.edu/advice/) (Tao Xie) — especially for CS students
 - [How he reads a research paper](https://muratbuffalo.blogspot.sg/search?q=my+advice) (Murat Demirbas) · [Advice on research and writing](http://www.cs.cmu.edu/afs/cs.cmu.edu/user/mleone/web/how-to.html)
 
----
-
-## Soft skills
-
-*(Add notes here as needed.)*
 
 ---
 
@@ -69,6 +66,3 @@ Cyber security journals: *to be updated*
 
 ---
 
-## Elsewhere
-
-- [ISTD profile (legacy)](https://istd.sutd.edu.sg/people/phd-students/ngo-van-mao)

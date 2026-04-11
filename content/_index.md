@@ -22,7 +22,7 @@ description: "Van Mao Ngo — Systems Architect, AI-RAN & Open RAN, FCP SUTD; Co
 
 </div>
 
-**Email:** (1) vanmao_ngo @  sutd dot edu dot sg · (2) vanmao_ngo @ alumni dot sutd dot edu dot sg
+**Email:** vanmao_ngo @  sutd dot edu dot sg 
 
 </div>
 
@@ -32,7 +32,9 @@ description: "Van Mao Ngo — Systems Architect, AI-RAN & Open RAN, FCP SUTD; Co
 
 <div class="home-summary">
 
-**Summary:** I architect **AI-driven 5G/6G**, **Open RAN (O-RAN)**, and **edge** systems, with **10+ years** of experience across **Singapore** (since 2015): academia, national R&D, and industry. I lead **multi-vendor private 5G** and **O-RAN** work at the **Asia & Pacific OTIC**, ship **AI-RAN** demos at **MWC Barcelona (2024–2026)**, and co-founded **[NeuroRAN](https://neuroran.com/)** to turn research into deployable products. **Ph.D. in Computer Science (SUTD)** — thesis on **mobile edge computing and machine learning** from IoT to hierarchical edge.
+**Summary.** I am a Systems Architect at [SUTD](https://www.sutd.edu.sg/)’s [Future Communications R&D Programme](https://fcp.sutd.edu.sg/) and a Co-founder of [NeuroRAN](https://neuroran.com/), a deep-tech spin-off specializing in AI-RAN solutions. At SUTD, I lead the technical team for the Asia-Pacific OTIC in Singapore, an AI-RAN Alliance–endorsed lab. I have led multiple international projects, including multi-vendor O-RAN testing and integration at OTIC, joint demo showcases at Mobile World Congress (MWC) Barcelona with industry-leading partners, and the 5G NTN demonstration for World Expo 2025.
+
+I hold a Ph.D. in Computer Science from SUTD and a Summa Cum Laude degree from [Kyiv Polytechnic Institute](http://kpi.ua/en), with experience spanning academic research at [A\*STAR](https://www.a-star.edu.sg/) and industrial telecom software engineering. My work centers on intelligent and open RAN—developing AI-RAN and O-RAN solutions, enabling cloud-style capabilities at the edge, and applying machine learning to network security and automation. Previously, I was a Research Scientist at [I²R](https://www.a-star.edu.sg/i2r/), [A\*STAR](https://www.a-star.edu.sg/) (2021–2022), a Postdoctoral Fellow at SUTD (2020–2021), and spent over four years as an R&D engineer on carrier-grade telecom systems.
 
 </div>
 
@@ -48,14 +50,6 @@ description: "Van Mao Ngo — Systems Architect, AI-RAN & Open RAN, FCP SUTD; Co
 - **Earlier:** Ph.D. on **contextual-bandit anomaly detection** and **hierarchical edge computing** ([code](https://gitlab.com/ngovanmao/edgecomputing), [demo](https://youtu.be/IqsHe43lHaw)); **federated learning** for anomaly detection (postdoc); **malware ML** at I²R; **Ericsson APZ-AXE** R&D (including **IPv6** contribution).
 
 </div>
-
----
-
-## Biography
-
-I focus on **intelligent RAN**, **open interfaces**, and **trustworthy networks**: building **AI-RAN** and **O-RAN** solutions, bringing **cloud-style** capability to the **edge**, and applying **ML** to **security** and **automation**. I collaborate with **vendors**, **operators**, and **researchers** (e.g. TMYTEK, JSAT, test & measurement partners) on **high-profile** deployments and demos.
-
-Before **FCP**, I was a **Research Scientist** at [**I²R**](https://www.a-star.edu.sg/i2r/), [**A\*STAR**](https://www.a-star.edu.sg/) (2021–2022), and a **Postdoctoral Fellow** at **SUTD** (2020–2021). Earlier I spent **4+ years** as an **R&D engineer** in **telecom software** (Ericsson-class systems).
 
 ---
 
