@@ -1,21 +1,19 @@
 ---
-layout: post
-title:  "Collection of skills (continuous update)"
-date:   2018-04-12 12:44:17 +0800
-categories: jekyll update
-commentIssueId: 2
+title: "Collection of skills (continuous update)"
+date: 2018-04-12
 ---
 
-This blog post contains a lot resources from research reading, writing, and other skills which I collect from many sources.
+This post contains resources from research reading, writing, and other skills collected from many sources.
 
-# How to read a research paper
-Besides the paper I listed in the resource page. The following list is also very useful.
+## How to read a research paper
+
+Besides the paper listed on [Miscellaneous](/miscellaneous/) (reading papers & technical writing), the following list is also very useful.
 
 [How he reads a research paper](https://muratbuffalo.blogspot.sg/search?q=my+advice) (Murat Demirbas)
 
 From this link, you can find many useful articles: [Advice on Research and Writing](http://www.cs.cmu.edu/afs/cs.cmu.edu/user/mleone/web/how-to.html)
 
-# Advice 
+## Advice
 
 [Advice for graduate](https://muratbuffalo.blogspot.sg/2013/04/my-advice-to-my-students.html) (Murat Demirbas)
 
@@ -25,5 +23,6 @@ From this link, you can find many useful articles: [Advice on Research and Writi
 
 This link is more for CS students: [Advice for researchers and students](http://taoxie.cs.illinois.edu/advice/) (Tao Xie).
 
-# Famous persons
+## Famous persons
+
 [You and Your Research](http://www.cs.virginia.edu/~robins/YouAndYourResearch.html)

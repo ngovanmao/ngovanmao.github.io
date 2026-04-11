@@ -1,0 +1,277 @@
+:root {
+  --text: #1a1a1a;
+  --muted: #5c5c5c;
+  --link: #0b57d0;
+  --border: #e8e8e8;
+  --bg: #fafafa;
+  --max: 44rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--text);
+  background: var(--bg);
+}
+
+.wrap {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+.site-header {
+  border-bottom: 1px solid var(--border);
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.site-header .wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem 1.5rem;
+  padding-top: 0.85rem;
+  padding-bottom: 0.85rem;
+}
+
+.site-title {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.site-title:hover {
+  text-decoration: underline;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+}
+
+.site-nav a {
+  color: var(--link);
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
+
+.site-main {
+  padding: 2rem 0 3rem;
+  min-height: 60vh;
+}
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 1.25rem 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+  background: #fff;
+}
+
+.page-header h1 {
+  margin: 0 0 1rem;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.page-content h1,
+.page-content h2 {
+  margin-top: 1.75rem;
+  margin-bottom: 0.85rem;
+  font-size: 1.25rem;
+  font-weight: 650;
+}
+
+.page-content h1:first-child {
+  margin-top: 0;
+}
+
+.page-content p {
+  margin: 0.75rem 0;
+}
+
+.page-content ul,
+.page-content ol {
+  margin: 0.75rem 0;
+  padding-left: 1.35rem;
+}
+
+.page-content li {
+  margin: 0.35rem 0;
+}
+
+.page-content a {
+  color: var(--link);
+}
+
+.page-content hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 1.75rem 0;
+}
+
+.lead {
+  font-size: 1.05rem;
+  color: var(--muted);
+  margin-bottom: 1.5rem;
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 0;
+}
+
+.post-list li {
+  margin: 0.65rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.75rem;
+  align-items: baseline;
+}
+
+.post-list time {
+  color: var(--muted);
+  font-size: 0.9rem;
+  min-width: 7.5rem;
+}
+
+.post-list a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+.post-list a:hover {
+  text-decoration: underline;
+}
+
+/* Home: summary + highlights */
+.home-summary {
+  margin: 1.5rem 0 1.75rem;
+  padding: 1rem 0 1rem 1.1rem;
+  border-left: 4px solid var(--link);
+  color: var(--muted);
+  font-size: 1.06rem;
+}
+
+.home-summary strong {
+  color: var(--text);
+}
+
+.home-highlights {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.1rem 1.35rem;
+  margin: 1.5rem 0;
+}
+
+.page-content .home-highlights h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.1rem;
+  font-weight: 650;
+}
+
+.home-highlights ul {
+  margin: 0;
+}
+
+.home-cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  align-items: center;
+  margin: 1rem 0 0;
+  font-size: 0.95rem;
+}
+
+.home-cta a {
+  color: var(--link);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.home-cta a:hover {
+  text-decoration: underline;
+}
+
+/* Home: photo + intro */
+.home-hero {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem 2rem;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.home-hero-main {
+  flex: 1 1 16rem;
+  min-width: 0;
+}
+
+.home-photo {
+  flex: 0 0 auto;
+  width: 200px;
+  max-width: min(42vw, 220px);
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+
+@media (max-width: 520px) {
+  .home-hero {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .home-hero-main {
+    width: 100%;
+  }
+
+  .home-cta {
+    justify-content: center;
+  }
+}
+
+.page-content table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.page-content th,
+.page-content td {
+  border: 1px solid var(--border);
+  padding: 0.5rem 0.65rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.page-content th {
+  background: #fff;
+  font-weight: 600;
+  width: 28%;
+}

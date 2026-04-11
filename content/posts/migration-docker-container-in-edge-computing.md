@@ -1,9 +1,6 @@
 ---
-layout: post
-title:  "Migration Docker Container in Edge Computing"
-date:   2018-03-24 12:44:17 +0800
-categories: jekyll update
-commentIssueId: 1
+title: "Migration Docker Container in Edge Computing"
+date: 2018-03-24
 ---
 # Motivation of migration in edge computing
 In edge computing, mobile users can offload computational tasks to near by server, called edge-server or edge-node, instead of sending the request to centralized cloud. 
