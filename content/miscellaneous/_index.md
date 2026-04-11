@@ -69,12 +69,6 @@ Cyber security journals: *to be updated*
 
 ---
 
-## Blog posts
-
-{{< blogposts >}}
-
----
-
 ## Elsewhere
 
 - [ISTD profile (legacy)](https://istd.sutd.edu.sg/people/phd-students/ngo-van-mao)

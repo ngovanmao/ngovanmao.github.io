@@ -9,15 +9,16 @@ description: "Van Mao Ngo — Systems Architect, AI-RAN & Open RAN, FCP SUTD; Co
 
 <div class="home-hero-main">
 
+
 # Mao V. Ngo (Ngô Văn Mão)
 
-**Systems Architect & AI-RAN specialist** · [Future Communications Programme](https://fcp.sutd.edu.sg/), [SUTD](https://www.sutd.edu.sg/) 
+**Systems Architect & AI-RAN specialist** · [Future Communications Programme](https://www.fcp.sutd.edu.sg/), [SUTD](https://www.sutd.edu.sg/) 
 
-· Co-founder & Lead Engineer, [NeuroRAN](https://neuroran.com/)
+**Co-founder & Lead Engineer**, [NeuroRAN](https://neuroran.com/)
 
 <div class="home-cta">
 
-[GitHub](https://github.com/ngovanmao) · [LinkedIn](https://www.linkedin.com/in/ngovanmao) · [Google Sites mirror](https://sites.google.com/site/maovngo/home)
+[LinkedIn](https://www.linkedin.com/in/ngovanmao) · [Google Scholar](https://scholar.google.com/citations?user=9p9cfxcAAAAJ&hl=en)
 
 </div>
 
@@ -31,7 +32,7 @@ description: "Van Mao Ngo — Systems Architect, AI-RAN & Open RAN, FCP SUTD; Co
 
 <div class="home-summary">
 
-**Summary.** I architect **AI-driven 5G/6G**, **Open RAN (O-RAN)**, and **edge** systems, with **10+ years** of experience across **Singapore** (since 2015): academia, national R&D, and industry. I lead **multi-vendor private 5G** and **O-RAN** work at the **Asia & Pacific OTIC**, ship **AI-RAN** demos at **MWC Barcelona (2024–2026)**, and co-founded **[NeuroRAN](https://neuroran.com/)** to turn research into deployable products. **Ph.D. in Computer Science (SUTD)** — thesis on **mobile edge computing and machine learning** from IoT to hierarchical edge.
+**Summary:** I architect **AI-driven 5G/6G**, **Open RAN (O-RAN)**, and **edge** systems, with **10+ years** of experience across **Singapore** (since 2015): academia, national R&D, and industry. I lead **multi-vendor private 5G** and **O-RAN** work at the **Asia & Pacific OTIC**, ship **AI-RAN** demos at **MWC Barcelona (2024–2026)**, and co-founded **[NeuroRAN](https://neuroran.com/)** to turn research into deployable products. **Ph.D. in Computer Science (SUTD)** — thesis on **mobile edge computing and machine learning** from IoT to hierarchical edge.
 
 </div>
 
@@ -39,7 +40,7 @@ description: "Van Mao Ngo — Systems Architect, AI-RAN & Open RAN, FCP SUTD; Co
 
 ## Impact & visibility
 
-- **O-RAN Global PlugFest:** hosted **four** cycles at **APOS/OTIC** (Spring/Fall 2024–2025) — end-to-end staging, integration, and testing with global partners.
+- **O-RAN Global PlugFest:** hosted multiple cycles at **APOS/OTIC** ([Spring 2024](https://fcp.sutd.edu.sg/2024/06/11/o-ran-global-plugfest-spring-2024-2/), [Fall 2024](https://fcp.sutd.edu.sg/2024/11/28/o-ran-global-plugfest-fall-2024-2/), [Spring 2025](https://fcp.sutd.edu.sg/2025/06/10/o-ran-global-plugfest-spring-2025/), [Fall 2025](https://fcp.sutd.edu.sg/2026/01/10/o-ran-global-plugfest-fall-2025/)) — ranging from O-RAN conformance test, to interoperability test, end-to-end test, security test, and testing with global partners.
 - **Private 5G & O-RAN:** design and integration of **multi-vendor** O-RAN stacks at OTIC; early **private 5G** networks in Singapore; O-RAN **testing and certification** with partners (e.g. Keysight, VIAVI, Rohde & Schwarz).
 - **Demos:** **MWC Barcelona 2024–2026** (AI-RAN / O-RAN showcases with industry partners); **World Expo 2025 (Osaka)** — **5G NTN** live video call, **Singapore Pavilion** (multi-company integration).
 - **Innovation showcases:** **5G AR/MR drone racing**, **5G robotics & autonomy** — illustrating industrial and societal use of 5G in Singapore.
@@ -74,17 +75,7 @@ Before **FCP**, I was a **Research Scientist** at [**I²R**](https://www.a-star.
 - **M.Eng. Electronic Engineering**, HCMUT, 2012–2015  
 - **B.S. Telecommunications Engineering** (GPA 5.0/5.0, *summa cum laude*), [KPI](http://kpi.ua/en), Ukraine, 2006–2011  
 
----
 
-## Selected publications
-
-Recent and representative work (see full list on [**Publications**](/publications/)):
-
-1. T. V. Ngo *et al.*, “LLM-Based Net Analyzer rApp for Explainable and Safe Automation in O-RAN Non-RT RIC,” **IEEE ICC Workshop** (AI-native RAN), Glasgow, 2026 *(to appear)*.  
-2. H. Yet *et al.*, “SLA-Aware Distributed LLM Inference Across Device-RAN-Cloud,” **IEEE INFOCOM Workshops** (6G AI-RAN), Tokyo, 2026 *(to appear)*.  
-3. T. T. Nguyen *et al.*, “Adaptive AI Model Partitioning over 5G Networks,” **IEEE GLOBECOM**, Taipei, Dec. 2025.  
-4. N. B. L. Tran *et al.*, “INA-Infra: An Open and Extensible Infrastructure for Intent-driven Network Automation Research,” **IEEE Globecom Workshop OpenRIT6G**, Cape Town, Dec. 2024.  
-5. N.-B.-L. Tran *et al.*, “AI-Driven rApps for Reducing RAN Interference in Real-World 5G,” **IEEE INFOCOM NG-OPERA**, Vancouver, May 2024 — **Best Demo Paper Award**.  
 
 ---
 
@@ -105,4 +96,4 @@ Recent and representative work (see full list on [**Publications**](/publication
 
 ---
 
-[**Projects**](/projects/) · [**Publications**](/publications/) · [**Achievements**](/achievements/) · [**Miscellaneous**](/miscellaneous/) · [**Blog**](/posts/)
+[**News**](/news/) · [**Projects**](/projects/) · [**Publications**](/publications/) · [**Achievements**](/achievements/) · [**Miscellaneous**](/miscellaneous/)
