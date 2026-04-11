@@ -53,19 +53,9 @@ I hold a Ph.D. in Computer Science from SUTD and a Summa Cum Laude degree from [
 
 ---
 
-## Core expertise
-
-- **Networking & systems:** 5G/6G, **AI-RAN**, **Open RAN**, **RIC**, **MEC**, IoT  
-- **AI/ML:** anomaly detection, **cyber-security**, **federated learning**, **generative AI** for telco operations  
-- **Tools:** Python, C, Java, PyTorch, TensorFlow, Git, CI/CD, Linux, SQL, Bash  
-- **Delivery:** multi-vendor **5G/O-RAN** deployments, **AI-RAN** demos, **cross-functional** coordination (e.g. **Expo 2025 NTN**, MWC)  
-- **Languages:** English (fluent), Vietnamese (native), Russian (intermediate)
-
----
-
 ## Education
 
-- **Ph.D. in Computer Science**, SUTD, 2016–2020 — *Thesis:* “Mobile Edge Computing with Machine Learning: from IoT Devices to Edge Servers, and to a Hierarchy.” Advisors: [Prof. Tony Q.S. Quek](https://people.sutd.edu.sg/~tonyquek/) (SUTD), [Prof. Tony T. Luo](https://tluocs.github.io/) (MST), [Dr. Derek Leong](https://derekleong.dev/#/home) & Dr. Wu Min (I²R).
+- **Ph.D. in Computer Science**, SUTD, 2016–2020 — *Thesis:* “Mobile Edge Computing with Machine Learning: from IoT Devices to Edge Servers, and to a Hierarchy.” Advisors: [Prof. Tony Q.S. Quek](https://people.sutd.edu.sg/~tonyquek/) (SUTD), [Prof. Tony T. Luo](https://tluocs.github.io/) (A\*STAR), and [Dr. Derek Leong](https://derekleong.dev/#/home) (A\*STAR).
 - **M.Eng. Electronic Engineering**, HCMUT, 2012–2015  
 - **B.S. Telecommunications Engineering** (GPA 5.0/5.0, *summa cum laude*), [KPI](http://kpi.ua/en), Ukraine, 2006–2011  
 

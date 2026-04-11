@@ -101,6 +101,15 @@ body {
   font-weight: 650;
 }
 
+.page-content h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.55rem;
+  font-size: 1.1rem;
+  font-weight: 650;
+  line-height: 1.3;
+  color: var(--text);
+}
+
 .page-content h1:first-child {
   margin-top: 0;
 }
@@ -274,4 +283,25 @@ body {
   background: #fff;
   font-weight: 600;
   width: 28%;
+}
+
+/* Embedded video (e.g. YouTube on Projects) */
+.video-embed {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin: 0.65rem 0 1rem;
+  aspect-ratio: 16 / 9;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: #111;
+}
+
+.video-embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
